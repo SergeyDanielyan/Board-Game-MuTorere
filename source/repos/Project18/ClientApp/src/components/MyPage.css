@@ -1,0 +1,87 @@
+﻿.board {
+    background-size: contain;
+    background-image: url('../images/papa_takaro.svg');
+    width: 500px;
+    height: 500px;
+}
+
+.black-round-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Делаем кнопку круглой */
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.red-round-button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Делаем кнопку круглой */
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.non-active-round-button {
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+.id0 {
+    position: absolute;
+    top: 304px;
+    left: 326px;
+}
+
+.id1 {
+    position: absolute;
+    top: 54px;
+    left: 222px;
+}
+
+.id2 {
+    position: absolute;
+    top: 200px;
+    left: 76px;
+}
+
+.id3 {
+    position: absolute;
+    top: 408px;
+    left: 76px;
+}
+
+.id4 {
+    position: absolute;
+    top: 554px;
+    left: 222px;
+}
+
+.id5 {
+    position: absolute;
+    top: 554px;
+    left: 430px;
+}
+
+.id6 {
+    position: absolute;
+    top: 408px;
+    left: 576px;
+}
+
+.id7 {
+    position: absolute;
+    top: 200px;
+    left: 576px;
+}
+
+.id8 {
+    position: absolute;
+    top: 54px;
+    left: 430px;
+}
+
+body {
+}
