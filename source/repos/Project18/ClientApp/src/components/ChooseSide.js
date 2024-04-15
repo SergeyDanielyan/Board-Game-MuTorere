@@ -3,13 +3,15 @@ import { Link } from 'react-router-dom';
 
 const ChooseSide = () => {
     return (
-        <div>
-            <p>Choose your side:</p>
+        <div align='center'>
+            <div className="my-text-container">
+                <h3>Choose your side:</h3>
+            </div>
             <Link to="/one-player/1">
-                <button>Red</button>
+                <button className="my-button">Red</button>
             </Link>
             <Link to="/one-player/2">
-                <button>Black</button>
+                <button className="my-button">Black</button>
             </Link>
         </div>
     )

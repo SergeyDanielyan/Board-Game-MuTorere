@@ -25,15 +25,15 @@ const GetPath = () => {
 
     if (id == 'non') {
         return (
-            <div>
-                <button onClick={createGame}>Create the game</button>
+            <div align='center'>
+                <button className="my-button" onClick={createGame}>Create the game</button>
             </div>
         )
     } else {
         return (
-            <div>
-                <p>Send this link to your friend: https://localhost:44490/online-game/{id}/2</p>
-                <p>Follow the link: https://localhost:44490/online-game/{id}/1</p>
+            <div align='center' className="my-text-container">
+                <h3>Send this link to your friend: https://localhost:44490/online-game/{id}/2</h3>
+                <h3>Follow the link: https://localhost:44490/online-game/{id}/1</h3>
             </div>
         )
     }
