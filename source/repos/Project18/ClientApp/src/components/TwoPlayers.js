@@ -125,7 +125,7 @@ const TwoPlayers = () => {
     }
 
     return (
-        <div className="board">
+        <div align='center' className="board">
             <button className={figureStyleName[0] + ' id0'} disabled={isDisabled[0]} onClick={() => { onFigureClick(0) }}></button>
             <button className={figureStyleName[1] + ' id1'} disabled={isDisabled[1]} onClick={() => { onFigureClick(1) }}></button>
             <button className={figureStyleName[2] + ' id2'} disabled={isDisabled[2]} onClick={() => { onFigureClick(2) }}></button>

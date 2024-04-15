@@ -1,8 +1,36 @@
-﻿.board {
+﻿body {
+    background-image: url('../images/board.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
     background-size: contain;
     background-image: url('../images/papa_takaro.svg');
     width: 500px;
     height: 500px;
+}
+
+.my-text-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.my-button {
+    display: block;
+    height: 50px;
+    width: 186px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #964B00;
+    color: white;
+    font-size: 14px;
+    text-align: center;
 }
 
 .black-round-button {
@@ -32,56 +60,53 @@
 .id0 {
     position: absolute;
     top: 304px;
-    left: 326px;
+    left: 724px;
 }
 
 .id1 {
     position: absolute;
     top: 54px;
-    left: 222px;
+    left: 620px;
 }
 
 .id2 {
     position: absolute;
     top: 200px;
-    left: 76px;
+    left: 474px;
 }
 
 .id3 {
     position: absolute;
     top: 408px;
-    left: 76px;
+    left: 474px;
 }
 
 .id4 {
     position: absolute;
     top: 554px;
-    left: 222px;
+    left: 620px;
 }
 
 .id5 {
     position: absolute;
     top: 554px;
-    left: 430px;
+    left: 828px;
 }
 
 .id6 {
     position: absolute;
     top: 408px;
-    left: 576px;
+    left: 974px;
 }
 
 .id7 {
     position: absolute;
     top: 200px;
-    left: 576px;
+    left: 974px;
 }
 
 .id8 {
     position: absolute;
     top: 54px;
-    left: 430px;
-}
-
-body {
+    left: 828px;
 }
